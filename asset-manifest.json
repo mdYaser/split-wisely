@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/split-wisely/static/css/main.b34ecd2c.css",
+    "main.js": "/split-wisely/static/js/main.9ae2841d.js",
+    "index.html": "/split-wisely/index.html",
+    "main.b34ecd2c.css.map": "/split-wisely/static/css/main.b34ecd2c.css.map",
+    "main.9ae2841d.js.map": "/split-wisely/static/js/main.9ae2841d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b34ecd2c.css",
+    "static/js/main.9ae2841d.js"
+  ]
+}
