@@ -1,0 +1,7 @@
+@use '../styles/variables' as *;
+
+.header {
+	color: $secondary;
+	font-weight: 500;
+	letter-spacing: 1px;
+}

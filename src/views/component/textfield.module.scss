@@ -1,0 +1,27 @@
+@use '../styles//variables' as *;
+
+.textfield {
+	position: relative;
+	display: flex;
+	align-items: center;
+	.left {
+		margin-left: 6px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		font-size: 24px;
+	}
+	.input {
+		color: $text;
+		width: 100%;
+		padding: 10px 14px;
+		border: 1px solid $border;
+		background: none;
+		outline: none;
+		border-radius: 8px;
+	}
+	.inputWLeft {
+		padding-left: 30px;
+	}
+}

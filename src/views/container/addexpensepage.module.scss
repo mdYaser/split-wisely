@@ -1,0 +1,50 @@
+@use '../styles/variables' as *;
+
+.container {
+	width: 50%;
+	color: $secondary;
+	.users {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		display: flex;
+		align-items: center;
+		.userlabel {
+			margin-right: 14px;
+		}
+		.you {
+			color: $secondary;
+			font-weight: 700;
+		}
+	}
+	.desc {
+		margin-bottom: 20px;
+	}
+	.amount {
+		margin-bottom: 20px;
+	}
+	.tags {
+		margin-bottom: 30px;
+	}
+}
+
+.details {
+	display: flex;
+	align-items: baseline;
+	margin: 20px 0;
+	.splitBy {
+		background: none;
+		border: 1.5px dashed $border;
+		border-radius: 8px;
+		padding: 2px 5px;
+		margin: 0 5px;
+		color: $side-text;
+		font-size: 16px;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+.footer {
+	display: flex;
+	margin-top: 60px;
+}

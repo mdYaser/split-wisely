@@ -1,0 +1,40 @@
+@use '../styles/variables' as *;
+
+.sidebar {
+	height: 100%;
+	width: 30%;
+	background-color: $side;
+	border-right: 6px solid $side;
+	border-left: 6px solid $side;
+}
+
+.dashboard {
+}
+
+.itemCont {
+	.item {
+		background-color: $primary;
+		margin-top: 30px;
+		border-radius: 8px;
+		border: 2px solid $primary;
+		transition: 0.2s ease;
+		padding: 10px 10px 10px 10%;
+		width: 98%;
+		color: $side-text;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		.text {
+			margin-left: 10px;
+			user-select: none;
+		}
+	}
+}
+
+.active {
+	.item {
+		border-color: $side-text;
+		color: $side-text;
+		font-weight: 600;
+	}
+}

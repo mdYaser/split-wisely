@@ -1,0 +1,55 @@
+@use '../styles/variables' as *;
+
+.navbar {
+	background-color: $nav;
+	color: $nav-text;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+.left {
+	display: flex;
+	align-items: center;
+	font-size: 32px;
+	.text {
+		font-size: 22px;
+		margin-left: 20px;
+		letter-spacing: 2px;
+		word-spacing: 10px;
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		.icon {
+			margin-left: -6px;
+		}
+	}
+}
+.right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.avatar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #fff;
+		color: $nav;
+		border-radius: 50%;
+		height: 36px;
+		width: 36px;
+		font-weight: 500;
+		font-size: 18px;
+	}
+	.name {
+		margin-left: 10px;
+	}
+	.icon {
+		margin-left: 14px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

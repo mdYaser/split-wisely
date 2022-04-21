@@ -1,0 +1,44 @@
+:root {
+	--primary: #f0ece3;
+	--secondary: #333;
+	--nav: #363062;
+	--nav-text: #e9d5da;
+	--border: #827397;
+	--side: #dfd3c3;
+	--side-text: #363062;
+	--text: #333;
+	--red: #d11a2a;
+	--btn-primary: #363062;
+	--btn-text-primary: #f0ece3;
+	--btn-secondary: #f0ece3;
+	--btn-text-secondary: #363062;
+	--success: #33985c;
+	--warning: #d77f2d;
+	--text-secondary: #8b7672;
+}
+
+.dark {
+	// Dark theme colors
+	--primary: #191a19;
+	--secondary: #f0ece3;
+	--side: #1f1d36;
+	--side-text: #baabda;
+	--text: #e9d5da;
+}
+
+$primary: var(--primary);
+$secondary: var(--secondary);
+$nav: var(--nav);
+$nav-text: var(--nav-text);
+$border: var(--border);
+$side: var(--side);
+$side-text: var(--side-text);
+$text: var(--text);
+$red: var(--red);
+$btn-primary: var(--btn-primary);
+$btn-text-primary: var(--btn-text-primary);
+$btn-secondary: var(--btn-secondary);
+$btn-text-secondary: var(--btn-text-secondary);
+$success: var(--success);
+$warning: var(--warning);
+$text-secondary: var(--text-secondary);

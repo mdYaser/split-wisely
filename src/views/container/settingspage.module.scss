@@ -1,0 +1,16 @@
+@use '../styles/variables' as *;
+
+.settings {
+	background-color: $primary;
+	color: $text;
+	.theme {
+		font-size: 20px;
+		margin-top: 20px;
+		display: flex;
+		align-items: center;
+		.text {
+			margin-left: 4px;
+			margin-right: 30px;
+		}
+	}
+}

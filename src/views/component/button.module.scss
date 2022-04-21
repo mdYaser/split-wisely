@@ -1,0 +1,25 @@
+@use '../styles/variables' as *;
+
+.button {
+	padding: 8px 12px;
+	min-width: 80px;
+	text-align: center;
+	border: 2px solid $btn-primary;
+	color: $btn-text-primary;
+	background-color: $nav;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	&:hover {
+		filter: brightness(0.8);
+	}
+	&:active {
+		filter: brightness(0.6);
+	}
+}
+
+.secondary {
+	background-color: $btn-secondary;
+	color: $btn-text-secondary;
+}
