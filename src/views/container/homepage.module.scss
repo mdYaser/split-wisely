@@ -1,7 +1,7 @@
 @use '../styles/variables' as *;
 
 .homepage {
-	width: 50%;
+	width: 60%;
 	font-family: "Roboto";
 	.mine {
 		margin-top: 20px;
@@ -107,5 +107,23 @@
 				}
 			}
 		}
+	}
+}
+
+@media (max-width: 1300px) {
+	.homepage {
+		width: 70%;
+	}
+}
+
+@media (max-width: 1040px) {
+	.homepage {
+		width: 80%;
+	}
+}
+
+@media (max-width: 920px) {
+	.homepage {
+		width: 90%;
 	}
 }

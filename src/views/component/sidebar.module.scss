@@ -38,3 +38,15 @@
 		font-weight: 600;
 	}
 }
+
+@media (max-width: 1040px) {
+	.sidebar {
+		width: 40%;
+	}
+}
+
+@media (max-width: 920px) {
+	.homepage {
+		width: 45%;
+	}
+}
